@@ -19,16 +19,8 @@ signupBtn.onclick= function()
     signupBtn.classList.remove("disable");
     signinBtn.classList.add("disable");
 }
-loggedIn.onclick=function()
-{
-    alert("Logged In successfully!");
-}
 
-function shopNow()
-{
-    document.getElementsByClassName("container")[0].style.display="visible";
 
-}
 
 
 
