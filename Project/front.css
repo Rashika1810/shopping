@@ -62,7 +62,7 @@ body{
 
 /* section content*/
 .content{
-    background-image:url(shopbg.jpg);
+    /* background-image:url(shopbg.jpg); */
     height:100vh;
     background-repeat: no-repeat;
     background-size: cover;
