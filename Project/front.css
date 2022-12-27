@@ -30,6 +30,7 @@ body{
 .navbar .logo h1{
     color: rgb(119, 19, 94);
     border-bottom: 4px solid #160019;
+    margin-bottom: 0px !important;
 
 }
 .navbar .menu li{
@@ -180,6 +181,7 @@ footer p a{
 .container
 {
     /* background-image: url("bg3.webp"); */
+    background-color: #00000061;
     width: 100vw;
     height: 100vh;
     background-position: center;

@@ -24,11 +24,11 @@ loggedIn.onclick=function()
     alert("Logged In successfully!");
 }
 
-function shopNow()
-{
-    document.getElementsByClassName("container")[0].style.display="visible";
+// function shopNow()
+// {
+//     document.getElementsByClassName("container")[0].style.display="visible";
 
-}
+// }
 
 
 
