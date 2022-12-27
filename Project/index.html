@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp and SignIn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3926b572f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="form">
+        <h1 id="title">Sign Up</h1>
+        <div>
+                <form class="input">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-solid fa-users"></i>
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <p>Lost password <a href="#">Click here</a></p>
+                
+                <div class="logged" id="loggedIn">
+                    <button type="submit">Login</button>
+                </div>
+                </form>
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign Up</button>
+                    <button type="button"  id="signinBtn"class="disable">Sign In</button>
+                </div>
+            </div>
+    </div>
+</div>
+                <script>
+                    loggedIn.onclick=function()
+{
+    alert("Logged In successfully!");
+}
+                </script>
+<script src="script.js"></script>
+</body>
+</html>
