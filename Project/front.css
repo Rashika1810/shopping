@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
 }
 body{
     height: 100%;
-
+    background-image: linear-gradient (rgb(218, 113, 183),purple);
 }
 
 /*header*/
@@ -20,10 +22,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    width: 100vw;
     
     z-index: 999;
-    background-color: #f294b3;
+    background-image: linear-gradient(purple, rgb(218, 113, 183));
     box-shadow: 0 0 14px rgba(78, 21, 48, 0); 
 
 }
@@ -33,17 +36,17 @@ body{
     margin-bottom: 0px !important;
 
 }
+.navbar .menu{
+    padding-right: 30px;
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
-   
-    
-
 }
 .navbar .menu li a{
     display: block;
     margin-left: 20px;
-    color: rgb(119, 19, 94);
+    color:rgb(18, 6, 14);
     border-bottom: 4px solid black;
     text-decoration: none;
     font-size: 20px;
@@ -54,7 +57,7 @@ body{
     border-bottom: 4px solid #160019;
 }
 .navbar .menu li a i{
-    color: black;
+    color:rgb(31 11 16);
 }
 .navbar .menu li a:hover{
     border-bottom: 4px solid #160019;
@@ -73,7 +76,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: rgb(82 5 62);
+    color: rgb(82 5 62); 
 }
 .content h1{
     font-size: 35px;
@@ -95,6 +98,7 @@ body{
 }
 .Pro-heading
 {
+    
     text-align: center;
     margin: 50px 0;
 
@@ -102,6 +106,10 @@ body{
 .sect
 {
     padding: 10px 5%;
+    
+}
+.grad{
+    background-image: linear-gradient(purple, rgb(218, 113, 183));
 }
 .products{
     display: flex;
@@ -185,7 +193,7 @@ footer p a{
     height: 100vh;
     background-position: center;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     display: none;
@@ -198,14 +206,14 @@ footer p a{
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #f294b3;
+    background-image: linear-gradient(purple, rgb(218, 113, 183));
     padding: 50px 60px 70px;
     text-align: center;
 }
-h1{
+.form h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color: rgb(119, 19, 94);
+    color: rgb(221, 216, 220);
 
 }
 .input-field{
@@ -235,7 +243,7 @@ form p{
 }
 form p a{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(87, 10, 159);
 }
 .btn-field{
     width: 100%;
@@ -245,7 +253,7 @@ form p a{
 }
 .btn-field button{
     flex-basis: 48%;
-    background: #a31191;
+    background: #9f048d;
     color: bisque;
     height: 40px;
     border-radius: 20px;
@@ -284,5 +292,21 @@ color: #555;
 }
 .logged button:hover{
      background: red; 
+     color: white;
 }
+
+/* Image hover*/
+.zoom {
+    padding: 50px;
+    transition: transform .2s; 
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.4); 
+     width: 300px;
+    
+  }
+  
+ 
   

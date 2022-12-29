@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="front.css">
 
     <title>Home</title>
+   
 </head>
 
 <body>
-    <script src="script.js"></script>
+   
     <nav class="navbar">
         <div class="logo">
             <h1>TrendBuzz</h1>
@@ -40,12 +41,12 @@
         <button onclick="shopNow()">Shop Now</button>
     </section>
     <h1 class="Pro-heading" id="marked">New Arrivals</h1>
-
+        <section class="grad">
     <section class="sect">
         <div class="products">
 
             <!-- collections starts -->
-            <div class="items">
+            <div class="items zoom" id="change">
                 <div class="image"><img src="womenGown.webp" alt=""></div>
                 <div class="descript">Womens</div>
                 <div class="title">Women Gown</div>
@@ -56,7 +57,7 @@
             </div>
             <!-- collections ends -->
             <!-- collections starts -->
-            <div class="items">
+            <div class="items zoom">
                 <div class="image"><img src="menTrend.webp" alt=""></div>
                 <div class="descript">Men's</div>
                 <div class="title">Bomber</div>
@@ -67,7 +68,7 @@
             </div>
             <!-- collections ends -->
             <!-- collections starts -->
-            <div class="items">
+            <div class="items zoom">
                 <div class="image"><img src="beautyProducts.avif" alt=""></div>
                 <div class="descript">Womens</div>
                 <div class="title">Beauty Products</div>
@@ -84,7 +85,7 @@
         <div class="products">
 
             <!-- collections starts -->
-            <div class="items">
+            <div class="items zoom">
                 <div class="image"><img src="shoes.webp" alt=""></div>
                 <div class="descript">Unisex</div>
                 <div class="title">Footwear</div>
@@ -95,7 +96,7 @@
             </div>
             <!-- collections ends -->
             <!-- collections starts -->
-            <div class="items">
+            <div class="items zoom">
                 <div class="image"><img src="saree1.webp" alt=""></div>
                 <div class="descript">Womens</div>
                 <div class="title">Women Sarees</div>
@@ -106,7 +107,7 @@
             </div>
             <!-- collections ends -->
             <!-- collections starts -->
-            <div class="items">
+            <div class="items zoom">
                 <div class="image"><img src="kids.webp" alt=""></div>
                 <div class="descript">Kids</div>
                 <div class="title">Dress</div>
@@ -119,6 +120,7 @@
 
         </div>
     </section>
+</section>
 
     <div class="container">
         <div class="form">
@@ -150,6 +152,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
     <script>
         function shopNow()
 {
@@ -157,7 +160,14 @@
 
 }
 
-    </script>
+let change=document.getElementById("change");
+change.addEventListener('onmouseenter',fun);
+function fun()
+{
+    
+}
+
+ </script>
     <footer>
         <p>Copyright at <a href="">TrendBuzz</a></p>
     </footer>
