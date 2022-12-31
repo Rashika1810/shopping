@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
 }
 body{
     height: 100%;
@@ -26,16 +24,21 @@ body{
     width: 100vw;
     
     z-index: 999;
-    background-image: linear-gradient(purple, rgb(218, 113, 183));
+    /* background-image: linear-gradient(purple, rgb(218, 113, 183)); */
+    background-color: rgb(148 35 134);
     box-shadow: 0 0 14px rgba(78, 21, 48, 0); 
 
 }
 .navbar .logo h1{
-    color: rgb(119, 19, 94);
+    color: rgb(23, 3, 18);
     /* border-bottom: 4px solid #160019; */
     margin-bottom: 0px !important;
-
+    font-size: 30px;
+    font-weight: bolder;
 }
+
+
+
 .navbar .menu{
     padding-right: 30px;
 }
@@ -307,6 +310,8 @@ color: #555;
      width: 300px;
     
   }
+
+  
   
   
  
